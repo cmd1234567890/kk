@@ -1,0 +1,150 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+body {  
+  font-family: Arial, sans-serif;  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+.header {  
+  background-color: #f8f9fa;  
+  padding: 20px;  
+  text-align: center;  
+}  
+  
+.topnav {  
+  overflow: hidden;  
+  background-color: #333;  
+}  
+  
+.topnav a {  
+  float: left;  
+  display: block;  
+  color: #f2f2f2;  
+  text-align: center;  
+  padding: 14px 16px;  
+  text-decoration: none;  
+}  
+  
+.topnav a:hover {  
+  background-color: #ddd;  
+  color: rgb(0, 0, 0);  
+}  
+  
+.row {  
+  display: flex;  
+  margin-top: 20px;  
+}  
+  
+.leftcolumn, .rightcolumn {  
+}  
+.leftcolumn .card {  
+    flex: 2; /* 允许左边的 card 在可用空间内增长更多 */  
+  }  
+  
+  .rightcolumn .card {  
+    flex: 1; /* 右边的 card 仍然可以增长，但不如左边的多 */  
+  }  
+  
+.card {  
+  background-color: #ffaaaa;  
+  padding: 20px;  
+  margin-bottom: 20px;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
+}  
+  
+.card img {  
+  width: 100%;  
+  height: auto;  
+}  
+  
+.card h2, .card h3 {  
+  color: #333;  
+}  
+  
+.card p {  
+  color: #666;  
+}  
+  
+.footer {  
+  background-color: #f8f9fa;  
+  padding: 15px;  
+  text-align: center;  
+  position: fixed;  
+  left: 0;  
+  bottom: 0;  
+  width: 100%;  
+  height: 20px;
+}  
+  
+ 
+@media screen and (max-width: 600px) {    
+    .row {  
+      flex-direction: column;  
+    }  
+    .leftcolumn, .rightcolumn {    
+      width: 100%; 
+    }  
+    
+    .leftcolumn .card, .rightcolumn .card {  
+      flex: 1;  
+    }  
+    .topnav a {    
+      float: none;    
+      display: block;    
+    }    
+  }  
+</style>  
+</head>  
+<body>  
+    <div class="header">  
+        <h1>Traval</h1>  
+        <p>Welcome to my personal website!</p>  
+      </div>  
+  
+<div class="topnav">  
+  <a href="index.html">Home</a>  
+  <a href="Project.html">Project</a>  
+  <a href="Traval.html">Traval</a>  
+</div>  
+  
+
+  <div class="row">  
+    <div class="leftcolumn">  
+      <div class="card">  
+        <h2>Traval</h2>  
+        <h5>During my travels, I shoot on the spot and capture all kinds of unique and beautiful images for use in web design. At the same time, we will also have an in-depth understanding of the local culture, customs and characteristics, and integrate them into the design to create a unique style of web works.In addition, I will communicate with the locals to understand their lifestyles and needs, so that I can better grasp the psychological and behavioral characteristics of the target audience and provide a more accurate user experience for web design.</h5>  
+        <img src="3.0.jpg" alt="Image">    
+      </div>  
+    </div>  
+    <div class="rightcolumn">  
+      <div class="card">
+        <h3>place</h3>    
+        <ul>    
+          <li>    
+            <h4>Summer Palace</h4>    
+            <img src="3.1.jpg" alt="Image 1"> 
+            <p>The Summer Palace, formerly known as the Qingyi Garden, is a vast imperial garden located in the western suburbs of Beijing. Covering an area of 3.009 square kilometers, it boasts a quarter of its territory dedicated to water, creating a scenic landscape that resembles the West Lake in Hangzhou. </p>
+          </li> 
+          <li>    
+            <h4>Forbidden City</h4>    
+            <img src="3.2.jpg" alt="Image 2"> 
+            <p>The Forbidden City, located in the center of Beijing, is a testament to the grandeur and majesty of the imperial era. Once the exclusive residence of the emperors of the Ming and Qing dynasties, it exudes an air of regality and solemnity. </p>
+          </li>   
+        </ul>    
+      </div>
+    </div>  
+
+
+
+
+
+  
+<div class="footer">   
+  <p>© Copyright [2024] Kasen's Page All designs, content, and images are originally created by Kasen or used with authorization.</p>  
+</div>  
+  
+</body>  
+</html>

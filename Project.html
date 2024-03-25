@@ -1,0 +1,156 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+body {  
+  font-family: Arial, sans-serif;  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+.header {  
+  background-color: #f8f9fa;  
+  padding: 20px;  
+  text-align: center;  
+}  
+  
+.topnav {  
+  overflow: hidden;  
+  background-color: #333;  
+}  
+  
+.topnav a {  
+  float: left;  
+  display: block;  
+  color: #f2f2f2;  
+  text-align: center;  
+  padding: 14px 16px;  
+  text-decoration: none;  
+}  
+  
+.topnav a:hover {  
+  background-color: #ddd;  
+  color: rgb(0, 0, 0);  
+}  
+  
+.row {  
+  display: flex;  
+  margin-top: 20px;  
+}  
+  
+.leftcolumn, .rightcolumn {  
+}  
+.leftcolumn .card {  
+    flex: 2; 
+  }  
+  
+  .rightcolumn .card {  
+    flex: 1; 
+  }  
+  
+.card {  
+  background-color: #ffaaaa;  
+  padding: 20px;  
+  margin-bottom: 20px;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
+}  
+  
+.card img {  
+  width: 100%;  
+  height: auto;  
+}  
+  
+.card h2, .card h3 {  
+  color: #333;  
+}  
+  
+.card p {  
+  color: #666;  
+}  
+  
+.footer {  
+  background-color: #f8f9fa;  
+  padding: 15px;  
+  text-align: center;  
+  position: fixed;  
+  left: 0;  
+  bottom: 0;  
+  width: 100%;  
+  height: 20px;
+}  
+  
+/* 响应式设计 */  
+@media screen and (max-width: 600px) {    
+    .row {  
+      flex-direction: column;  
+    }  
+    .leftcolumn, .rightcolumn {    
+      width: 100%; 
+    }  
+      
+    .leftcolumn .card, .rightcolumn .card {  
+      flex: 1;  
+    }  
+    .topnav a {    
+      float: none;    
+      display: block;    
+    }    
+  }  
+</style>  
+</head>  
+<body>  
+    <div class="header">  
+        <h1>Project</h1>  
+        <p>Welcome to my personal website!</p>  
+      </div>  
+  
+<div class="topnav">  
+  <a href="index.html">Home</a>  
+  <a href="Project.html">Project</a>  
+  <a href="Traval.html">Traval</a>  
+</div>  
+  
+
+  <div class="row">  
+    <div class="leftcolumn">  
+      <div class="card">  
+        <h2>Product Name: Creative Infinity Web Design Suite</h2>  
+        <h5>The Creative Infinity Web Design Suite is a comprehensive design toolset tailored for web designers. It integrates various efficient and practical design functions and resources, enabling designers to unleash their creativity and quickly create unique and engaging web design works. Jan 8, 2024</h5>  
+        <img src="2.1.jpg" alt="Image">  
+        <p>With its extensive design resources, powerful customization capabilities, intelligent layout and design assistance, efficient collaboration and sharing functions, as well as optimized performance and compatibility, the Creative Infinity Web Design Suite provides web designers with a comprehensive and efficient design toolset. Both beginners and experienced designers can find suitable design solutions to quickly create satisfying web design works.</p>  
+      </div>  
+    </div>  
+    <div class="rightcolumn">  
+      <div class="card">
+        <h3>Features</h3>    
+        <ul>    
+          <li>    
+            <h4>Extensive Design Template Library:</h4>    
+            <img src="2.2.jpg" alt="Image 1"> 
+            <p>The Creative Infinity Web Design Suite comes with thousands of carefully designed web templates, covering various industries, styles, and scenarios. Designers can quickly select and customize suitable templates based on project needs, significantly saving time from starting the design process from scratch.</p>
+          </li> 
+          <li>    
+            <h4>Powerful Customization Capabilities:</h4>    
+            <img src="2.3.jpg" alt="Image 2"> 
+            <p>The suite provides extensive customization options, allowing designers to easily adjust design elements such as colors, fonts, and layouts to create unique web pages that align with brand or personal styles. It also supports importing custom materials and effects to make designs even more personalized.</p>
+          </li>   
+          <li>    
+            <h4>Intelligent Layout and Design Assistance:</h4>    
+            <img src="2.4.jpg" alt="Image 3">
+            <p>The product features intelligent layout functions that automatically adjust the layout based on content, ensuring the best presentation of web pages across different devices and screen sizes. Additionally, it offers design assistance tools such as alignment, distribution, grids, and more, helping designers precisely control design details.</p>
+          </li> 
+        </ul>    
+      </div>
+    </div>  
+
+
+
+
+
+  
+<div class="footer">   
+  <p>© Copyright [2024] Kasen's Page All designs, content, and images are originally created by Kasen or used with authorization.</p>  
+</div>  
+  
+</body>  
+</html>
